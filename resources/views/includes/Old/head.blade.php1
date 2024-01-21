@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>@if(isset($title)){{$title}} @else {{ '' }} @endif</title>
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- tabs js / css-->
+{{HTML::script('js/tab/jquery-1.7.1.min.js')}}
+{{HTML::script('js/tab/jquery.hashchange.min.js')}}
+{{HTML::script('js/tab/jquery.easytabs.min.js')}}
+{{HTML::style('css/tabs.css')}}
+<!-- tabs js / css-->
+
+<!-- Your styles -->
+{{HTML::style('css/style.css', array('media'=>'screen'))}}
+
+ <!-- Favicons
+================================================== -->
+
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- styles for IE -->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/ie/ie.css" type="text/css" media="screen" />
+<![endif]-->
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->

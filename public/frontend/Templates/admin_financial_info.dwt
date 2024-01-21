@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Financial Highlights:: Edit</title>
+<!-- TemplateEndEditable -->
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../admin_html/images/icons/favicon.ico" rel="shortcut icon">
+    <!--Loading bootstrap css-->
+    <link type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    
+    
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/jquery-ui-1.10.3.custom/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/font-awesome/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/bootstrap/css/bootstrap.min.css">
+    <!--LOADING SCRIPTS FOR PAGE-->
+    <!--LOADING SCRIPTS FOR PAGE-->
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/bootstrap-datepicker/css/datepicker.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/bootstrap-switch/css/bootstrap-switch.css">
+    
+    <!--Loading style vendors-->
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/animate.css/animate.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/vendors/jquery-pace/pace.css">
+    <!--Loading style-->
+<link type="text/css" rel="stylesheet" href="../admin_html/css/style.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/css/style-mango.css" id="theme-style">
+<link type="text/css" rel="stylesheet" href="../admin_html/css/vendors.css">
+<link type="text/css" rel="stylesheet" href="../admin_html/css/themes/grey.css" id="color-style">
+<link type="text/css" rel="stylesheet" href="../admin_html/css/style-responsive.css">
+
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body>
+<div>
+<!--BEGIN TO TOP--><a id="totop" href="#"><i class="fa fa-angle-up"></i></a><!--END BACK TO TOP-->
+  <div id="wrapper"><!--BEGIN TOPBAR-->
+        <nav id="topbar" role="navigation" style="margin-bottom: 0;" class="navbar navbar-default navbar-static-top">
+          <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target=".sidebar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a id="logo" href="http://www.webqom.com/web88.html" target="_blank" class="navbar-brand"><img src="../admin_html/images/logo_web88.png"></a>          </div>
+            
+            	<div class="topbar-main">
+                	<a id="logo" href="#" class="navbar-brand"><img src="../admin_html/images/logo.jpg"></a>
+                    <a id="menu-toggle" href="#" class="btn hidden-xs"><i class="fa fa-bars"></i></a>
+                    
+                <form id="topbar-search" action="" method="" class="hidden-sm hidden-xs">
+                    <div class="input-icon right"><a href="#"><i class="fa fa-search"></i></a><input type="text" placeholder="Search here..." class="form-control"/></div>
+                </form>
+                <ul class="nav navbar-top-links navbar-right">
+                
+                    <li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle"><img src="../admin_html/images/profile/image_hock.jpg" alt="" class="img-responsive img-circle"/>&nbsp;
+                        Support Webqom
+                        &nbsp;<span class="caret"></span></a>
+                  <ul class="dropdown-menu dropdown-user pull-right animated bounceInLeft">
+                            <li>
+                                <div class="navbar-content">
+                                    <div class="row">
+                                        <div class="col-md-5 col-xs-5"><img src="../admin_html/images/profile/image_hock.jpg" alt="" class="img-responsive img-circle"/>
+
+                                            <p class="text-center mtm">
+                                            	<a href="#" data-target="#modal-change-avatar" data-toggle="modal" class="change-avatar">
+                                                <small>Change Avatar</small>                                                </a></p>
+                                      </div>
+                                        <div class="col-md-7 col-xs-5"><span>Support Webqom</span>
+
+                                            <p class="text-muted small">support@webqom.com</p>
+
+                                            <div class="divider"></div>
+                                            <!--<a href="#" class="btn btn-primary btn-sm">View Profile</a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="navbar-footer">
+                                    <div class="navbar-footer-content">
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-6"><a href="#" class="btn btn-default btn-sm" data-target="#modal-change-password" data-toggle="modal">Change Password</a></div>
+                                            <div class="col-md-6 col-xs-6"><a href="#" class="btn btn-default btn-sm pull-right">Sign Out</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                      </ul>
+                  </li>
+                </ul>
+          </div>
+        </nav>
+        
+        <!--Modal Change Avatar start-->
+                            <div id="modal-change-avatar" tabindex="-1" role="dialog" aria-labelledby="modal-login-label" aria-hidden="true" class="modal fade">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+                                    <h4 id="modal-login-label2" class="modal-title">Change Avatar</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="form">
+                                      <form class="form-horizontal">
+                                        
+                                        <div class="form-group">
+                                          <label class="col-md-4 control-label">Upload Avatar Image </label>
+                                          <div class="col-md-8">
+                                            <div class="text-15px margin-top-10px"> 
+                                            	<img src="images/profile/image_hock.jpg" alt="Avatar" class="img-responsive"><br/>
+                                                <input id="exampleInputFile1" type="file"/>
+                                              <br/>
+                                                <span class="help-block">(Image dimension: 100 x 100 pixels, JPEG/GIF/PNG only, Max. 2MB) </span> </div>
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="form-actions">
+                                          <div class="col-md-offset-4 col-md-8"> <a href="#" class="btn btn-red">Save &nbsp;<i class="fa fa-floppy-o"></i></a>&nbsp; <a href="#" data-dismiss="modal" class="btn btn-green">Cancel &nbsp;<i class="glyphicon glyphicon-ban-circle"></i></a> </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <!--END MODAL Change Avatar-->
+        <!--Modal Change Password start-->
+                <div id="modal-change-password" tabindex="-1" role="dialog" aria-labelledby="modal-login-label" aria-hidden="true" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+                                <h4 id="modal-login-label" class="modal-title"><a href=""><i class="fa fa-exclamation-triangle"></i></a> Change Password</h4></div>
+                            <div class="modal-body">
+                                <div class="form">
+                                    <form class="form-horizontal">
+                                        
+                                        <div class="form-group">
+                                        	<label for="password" class="control-label col-md-4">New Password</label>
+
+                                            <div class="col-md-8">
+                                            	<div class="input-icon"><i class="fa fa-key"></i> <input id="password" type="password" placeholder="New Password" class="form-control"/><span class="text-10px">(Password length should be between 6-12 characters)</span>                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                        	<label for="password" class="control-label col-md-4">Confirm New Password</label>
+
+                                            <div class="col-md-8">
+                                            	<div class="input-icon"><i class="fa fa-key"></i> <input id="password" type="password" placeholder="Confirm New Password" class="form-control"/><span class="text-10px">(Password length should be between 6-12 characters)</span>                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-actions">
+                                            <div class="col-md-offset-4 col-md-8">
+                                               <a href="#" class="btn btn-red">Save &nbsp;<i class="fa fa-floppy-o"></i></a>&nbsp;
+                                              <a href="#" data-dismiss="modal" class="btn btn-green">Cancel &nbsp;<i class="glyphicon glyphicon-ban-circle"></i></a>                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--END MODAL CHANGE PASSWORD-->
+        <!--END TOPBAR-->
+        
+        <!--BEGIN SIDEBAR MENU-->
+        <nav id="sidebar" role="navigation" class="navbar-default navbar-static-side">
+            <div class="sidebar-collapse menu-scroll">
+                <ul id="side-menu" class="nav">
+                    <li class="clock"><strong id="get-date"></strong>
+
+                        <div class="digital-clock">
+                            <div id="getHours" class="get-time"></div>
+                            <span>:</span>
+
+                            <div id="getMinutes" class="get-time"></div>
+                            <span>:</span>
+
+                            <div id="getSeconds" class="get-time"></div>
+                        </div>
+                    </li>
+                    <li class="sidebar-heading"><h4>Main Menu</h4></li>
+                    <li><a href="dashboard.html"><i class="fa fa-laptop fa-fw"></i><span class="menu-title">Dashboard</span></a></li>
+                    <li><a href="index_edit.html"><i class="fa fa-home fa-fw"></i><span class="menu-title">Index Page</span></a> </li>
+                    <li><a href="news_events_list.html"><i class="glyphicon glyphicon-camera fa-fw"></i><span class="menu-title">News &amp; Events</span></a> </li>
+                    <li><a href="#"><i class="fa fa-briefcase fa-fw"></i><span class="menu-title">Careers</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="careers_job_vacancy_list.html">Vacancies Listing</a></li>
+                            <li><a href="careers_online_applicants_list.html">Online Applicants Listing</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-heading"><h4>Investor Relations</h4></li>
+                    <li><a href="ir_home_edit.html"><i class="fa fa-signal fa-fw"></i><span class="menu-title">IR Home</span></a></li>
+                    <li><a href="#"><i class="fa fa-info-circle fa-fw"></i><span class="menu-title">Corporate Information</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="corporate_info_general_edit.html">General</a></li>
+                            <li><a href="corporate_info_directors_profile_list.html">Directors' Profile</a></li>
+                            <li><a href="corporate_info_key_mgmt_team_list.html">Key Management Team</a></li>
+                            <li><a href="corporate_info_our_properties_list.html">Our Properties</a></li>
+                            <li><a href="corporate_info_our_subsidiaries_list.html">Our Subsidiaries</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="corporate_governance_edit.html"><i class="fa fa-tags fa-fw"></i><span class="menu-title">Corporate Governance</span></a></li>
+                    <li><a href="#"><i class="fa fa-puzzle-piece fa-fw"></i><span class="menu-title">IPO Centre</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="ipo_centre_ipo_statistics_edit.html">IPO Statistics</a></li>
+                            <li><a href="ipo_centre_competitive_advantages_edit.html">Competitive Advantages</a></li>
+                            <li><a href="ipo_centre_risk_factors_edit.html">Risk Factors</a></li>
+                            <li><a href="ipo_centre_utilisation_proceeds_edit.html">Utilisation of Proceeds</a></li>
+                            <li><a href="ipo_centre_industry_overview_edit.html">Industry Overview</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-dollar fa-fw"></i><span class="menu-title">Share Information</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="share_info_price_ticker_edit.html">Price Ticker</a></li>
+                            <li><a href="share_info_stock_charts_list.html">Stock Charts</a></li>
+                            <li><a href="share_info_price_volume_edit.html">Price &amp; Volume</a></li>
+                            <li><a href="share_info_analysis_shareholdings_edit.html">Analysis of Shareholdings</a></li>
+                            <li><a href="share_info_top_30_shareholders_edit.html">Top 30 Shareholders</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="entitlements_edit.html"><i class="fa fa-dot-circle-o fa-fw"></i><span class="menu-title">Entitlements</span></a></li>
+                    <li class="active"><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i><span class="menu-title">Financial Information</span><span class="fa arrow"></span></a>                        
+                    	<ul class="nav nav-second-level in">
+					<!-- TemplateBeginEditable name="EditRegion3" -->
+                            <li class="active"><a href="financial_info_financial_highlights_edit.html">Financial Highlights</a></li>
+                            <li><a href="financial_info_comprehensive_income_edit.html">Comprehensive Income</a></li>
+                            <li><a href="financial_info_financial_position_edit.html">Financial Position</a></li>
+                            <li><a href="financial_info_cash_flow_statement_edit.html">Cash Flow Statement</a></li>
+                            <li><a href="financial_info_changes_in_equity_edit.html">Statement of Changes in Equity</a></li>
+                            <li><a href="financial_info_latest_quarterly_report_edit.html">Latest Quarterly Report</a></li>
+                            <li><a href="financial_info_segmental_analysis_edit.html">Segmental Analysis</a></li>
+                            <li><a href="financial_info_ratio_analysis_edit.html">Ratio Analysis</a></li>
+					
+                    <!-- TemplateEndEditable -->
+                    	</ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i><span class="menu-title">Management Analysis</span><span class="fa arrow"></span></a>                        
+                    	<ul class="nav nav-second-level">
+                            <li><a href="mgmt_analysis_chairman_statement_edit.html">Chairman's Statement</a></li>
+                            <li><a href="mgmt_analysis_review_operations_edit.html">Review of Operations</a></li>
+                            <li><a href="mgmt_analysis_past_performance_review_edit.html">Past Performance Review</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-bullhorn fa-fw"></i><span class="menu-title">News Centre</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="news_centre_bursa_announcements_list.html">Bursa Announcements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-file-text fa-fw"></i><span class="menu-title">Reports</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="reports_annual_reports_list.html">Annual Reports</a></li>
+                            <li><a href="reports_annual_audited_accounts_list.html">Annual Audited Accounts</a></li>
+                            <li><a href="reports_quarterly_reports_list.html">Quarterly Reports</a></li>
+                            <li><a href="reports_circulars_list.html">Circulars</a></li>
+                            <li><a href="reports_prospectus_list.html">Prospectus</a></li>
+                            <li><a href="reports_analyst_reports_list.html">Analyst Reports</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-cog fa-fw"></i><span class="menu-title">Investor Tools</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="investor_tools_news_alert_list.html">News Alert</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="event_calendar_list.html"><i class="fa fa-calendar fa-fw"></i><span class="menu-title">Event Calendar</span></a></li>
+                </ul>
+          </div>
+    </nav>
+        <!--END SIDEBAR MENU--><!--BEGIN PAGE WRAPPER-->
+      <div id="page-wrapper"><!--BEGIN PAGE HEADER & BREADCRUMB-->
+        <!-- TemplateBeginEditable name="EditRegion1" -->
+        <div class="page-header-breadcrumb">
+          <div class="page-heading hidden-xs">
+            <h1 class="page-title">Financial Information</h1>
+          </div>
+          <ol class="breadcrumb page-breadcrumb">
+            <li><i class="fa fa-home"></i>&nbsp;<a href="dashboard.html">Dashboard</a>&nbsp; <i class="fa fa-angle-right"></i>&nbsp;</li>
+            <li>Investor Relations &nbsp;<i class="fa fa-angle-right"></i>&nbsp;</li>
+            <li>Financial Information &nbsp;<i class="fa fa-angle-right"></i>&nbsp;</li>
+            <li class="active">Financial Highlights - Edit</li>
+          </ol>
+        </div>
+        <!-- TemplateEndEditable -->
+        <!--END PAGE HEADER & BREADCRUMB--><!--BEGIN CONTENT-->
+        <!-- TemplateBeginEditable name="EditRegion2" -->
+        <div class="page-content">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>Financial Highlights <i class="fa fa-angle-right"></i> Edit</h2>
+              <div class="clearfix"></div>
+              <div class="alert alert-success alert-dismissable">
+                <button type="button" data-dismiss="alert" aria-hidden="true" class="close">&times;</button>
+                <i class="fa fa-check-circle"></i> <strong>Success!</strong>
+                <p>The information has been saved/updated successfully.</p>
+              </div>
+              <div class="alert alert-danger alert-dismissable">
+                <button type="button" data-dismiss="alert" aria-hidden="true" class="close">&times;</button>
+                <i class="fa fa-times-circle"></i> <strong>Error!</strong>
+                <p>The information has not been saved/updated. Please correct the errors.</p>
+              </div>
+              <p class="text-blue text-12px pull-left">You can edit the content by clicking the text section below.
+              <div class="pull-right"> <a href="#" class="btn btn-red btn-lg">Update Table &nbsp;<i class="fa fa-refresh"></i></a> </div>
+              <p></p>
+              <div class="clearfix"></div>
+              <ul id="myTab" class="nav nav-tabs">
+                        <li class="active"><a href="#viewbyyear" data-toggle="tab">View by Year</a></li>
+                <li><a href="#viewbyquarter" data-toggle="tab">View by Quarter</a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                        <div id="viewbyyear" class="tab-pane fade in active">
+                          <div class="table-responsive">
+                            <div contenteditable="true">
+                              <table class="table table-striped">
+                                <col width="1"/>
+                                <col width="1"/>
+                                <col width="1"/>
+                                <col width="1"/>
+                                <col width="1"/>
+                                <col width="1"/>
+                                <col width="1"/>
+                                <thead>
+                                  <tr>
+                                    <th colspan="2"></th>
+                                    <th colspan="2"><span class="red-title">Proforma (Audited)</span></th>
+                                    <th colspan="2"><span class="red-title">Actual (Audited)</span></th>
+                                    <th><span class="red-title">Actual (Unaudited)</span></th>
+                                  </tr>
+                                  <tr>
+                                    <th>FYE</th>
+                                    <th></th>
+                                    <th>31 Dec 2010</th>
+                                    <th>31 Dec 2011</th>
+                                    <th>31 Dec 2012</th>
+                                    <th>31 Dec 2013</th>
+                                    <th>31 Dec 2014</th>
+                                  </tr>
+                                  <tr>
+                                    <th>No. Of Months</th>
+                                    <th></th>
+                                    <th>12</th>
+                                    <th>12</th>
+                                    <th>12</th>
+                                    <th>12</th>
+                                    <th>6</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Revenue</td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>66,778</td>
+                                    <td>88,325</td>
+                                    <td>138,602</td>
+                                    <td>152,041</td>
+                                    <td>80,034</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Gross Profit</td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>11,890</td>
+                                    <td>22,413</td>
+                                    <td>35,465</td>
+                                    <td>39,104</td>
+                                    <td>20,312</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Earnings Before Interest, Tax, Depreciation &amp; Amortisation (EBITDA) <span class="red-title">*</span></td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>7,305</td>
+                                    <td>14,847</td>
+                                    <td>22,397</td>
+                                    <td>26,038</td>
+                                    <td>13,374</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Profit Before Taxation (PBT)</td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>4,989</td>
+                                    <td>12,330</td>
+                                    <td>19,043</td>
+                                    <td>21,159</td>
+                                    <td>9,115</td>
+                                  </tr>
+                                  <tr>
+                                    <td>PBT Margin</td>
+                                    <td><strong>%</strong></td>
+                                    <td>7.47</td>
+                                    <td>13.96</td>
+                                    <td>13.74</td>
+                                    <td>13.92</td>
+                                    <td>11.39</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Profit After Taxation (PAT)</td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>3,516</td>
+                                    <td>9,200</td>
+                                    <td>13,954</td>
+                                    <td>15,291</td>
+                                    <td>6,832</td>
+                                  </tr>
+                                  <tr>
+                                    <td>PAT Margin</td>
+                                    <td><strong>%</strong></td>
+                                    <td>5.27</td>
+                                    <td>10.42</td>
+                                    <td>10.07</td>
+                                    <td>10.06</td>
+                                    <td>8.54</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Profit For The Year Attributable To Equity Holders</td>
+                                    <td><strong>RM'000</strong></td>
+                                    <td>3,378</td>
+                                    <td>8,523</td>
+                                    <td>13,148</td>
+                                    <td>13,582</td>
+                                    <td>6,038</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Gross Earnings Per Share (Gross EPS) <span class="red-title">*</span></td>
+                                    <td><strong>sen</strong></td>
+                                    <td>2.71</td>
+                                    <td>6.70</td>
+                                    <td>7.35</td>
+                                    <td>7.43</td>
+                                    <td>2.67</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Net Earnings Per Share (Net EPS) <span class="orange-title">**</span></td>
+                                    <td><strong>sen</strong></td>
+                                    <td>1.91</td>
+                                    <td>5.00</td>
+                                    <td>5.39</td>
+                                    <td>5.37</td>
+                                    <td>2.00</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Basic Earnings Per Share <span class="blue-title">#</span></td>
+                                    <td><strong>sen</strong></td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>5.10</td>
+                                    <td>5.00</td>
+                                    <td>2.09</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div contenteditable="true"> <em>Notes:</em>
+                                <ul class="unstyled">
+                                  <li class="red-title"><em>* The gross EPS is computed based on the consolidated PBT divided by the number of Shares in issue after the Acquisitions but before our Public Issue.</em></li>
+                                  <li class="orange-title"><em>** The net EPS is computed based on the consolidated PAT divided by the number of Shares in issue after the Acquisitions but before our Public Issue.</em></li>
+                                  <li class="blue-title"><em># Basic earnings per share is calculated based on the profit attributable to owners of the Company for the financial year divided by the weighted average number of ordinary shares in issued during the financial year.</em></li>
+                                </ul>
+                            </div>
+                          </div>
+                          <!-- end responsive table -->
+                        </div>
+                <!-- end tab view by year -->
+                        <div id="viewbyquarter" class="tab-pane fade"> Note to programmer: the charts  will be shown in full length in front end. Please follow the css displayed in front end for the editable content.
+                          <!-- revenue start -->
+                            <div class="portlet">
+                              <div class="portlet-header">
+                                <div class="caption">Revenue</div>
+                                <div class="tools"><i class="fa fa-chevron-up"></i></div>
+                              </div>
+                              <div class="portlet-body">
+                                <div contenteditable="true">
+                                  <h5>Revenue</h5>
+                                </div>
+                                <div class="table-responsive">
+                                  <div id="spline-with-symbols1" class="col-lg-9"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="table-responsive">
+                                  <div contenteditable="true">
+                                    <table class="table table-striped">
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <thead>
+                                        <tr>
+                                          <th>Revenue (In RM '000)</th>
+                                          <th>Q1</th>
+                                          <th>Q2</th>
+                                          <th>Q3</th>
+                                          <th>Q4</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>2012</td>
+                                          <td>-</td>
+                                          <td>33,353</td>
+                                          <td>37,673</td>
+                                          <td>35,847</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2013</td>
+                                          <td>30,643</td>
+                                          <td>33,317</td>
+                                          <td>40,102</td>
+                                          <td>47,979</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2014</td>
+                                          <td>36,604</td>
+                                          <td>43,430</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End portlet-body -->
+                            </div>
+                          <!-- End revenue -->
+                            <!-- profit before tax start -->
+                            <div class="portlet">
+                              <div class="portlet-header">
+                                <div class="caption">Profit Before Tax</div>
+                                <div class="tools"><i class="fa fa-chevron-up"></i></div>
+                              </div>
+                              <div class="portlet-body">
+                                <div contenteditable="true">
+                                  <h5>Profit Before Tax</h5>
+                                </div>
+                                <div class="table-responsive">
+                                  <div id="spline-with-symbols2" class="col-lg-9"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="table-responsive">
+                                  <div contenteditable="true">
+                                    <table class="table table-striped">
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <thead>
+                                        <tr>
+                                          <th>Profit Before Tax (In RM '000)</th>
+                                          <th>Q1</th>
+                                          <th>Q2</th>
+                                          <th>Q3</th>
+                                          <th>Q4</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>2012</td>
+                                          <td>-</td>
+                                          <td>4,442</td>
+                                          <td>4,440</td>
+                                          <td>5,666</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2013</td>
+                                          <td>3,238</td>
+                                          <td>4,147</td>
+                                          <td>4,942</td>
+                                          <td>8,832</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2014</td>
+                                          <td>4,525</td>
+                                          <td>4,590</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End portlet-body -->
+                            </div>
+                          <!-- End profit before tax -->
+                            <!-- profit after tax start -->
+                            <div class="portlet">
+                              <div class="portlet-header">
+                                <div class="caption">Profit After Tax</div>
+                                <div class="tools"><i class="fa fa-chevron-up"></i></div>
+                              </div>
+                              <div class="portlet-body">
+                                <div contenteditable="true">
+                                  <h5>Profit After Tax</h5>
+                                </div>
+                                <div class="table-responsive">
+                                  <div id="spline-with-symbols3" class="col-lg-9"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="table-responsive">
+                                  <div contenteditable="true">
+                                    <table class="table table-striped">
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <col width="1"/>
+                                      <thead>
+                                        <tr>
+                                          <th>Profit After Tax (In RM '000)</th>
+                                          <th>Q1</th>
+                                          <th>Q2</th>
+                                          <th>Q3</th>
+                                          <th>Q4</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>2012</td>
+                                          <td>-</td>
+                                          <td>3,380</td>
+                                          <td>3,381</td>
+                                          <td>3,921</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2013</td>
+                                          <td>2,428</td>
+                                          <td>3,109</td>
+                                          <td>4,024</td>
+                                          <td>5,730</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2014</td>
+                                          <td>3,432</td>
+                                          <td>3,399</td>
+                                          <td>-</td>
+                                          <td>-</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End portlet-body -->
+                            </div>
+                          <!-- End profit after tax -->
+                        </div>
+                <!-- end tab view by quarter -->
+                      </div>
+              <!-- end tab content -->
+                      <div class="portlet">
+                        <div class="portlet-header">
+                          <div class="caption">Remark</div>
+                          <br/>
+                          <span class="text-blue text-12px">You can edit the content by clicking the text section below.</span>
+                          <div class="tools"> <i class="fa fa-chevron-up"></i> </div>
+                        </div>
+                        <div class="portlet-body">
+                          <div contenteditable="true">
+                            <h2 class="red-title"><span>Note</span></h2>
+                            <div class="alert alert-error"> <strong>*</strong> Please read this section in conjunction with OCK Group Berhad's Prospectus dated 29 June 2012, Annual Report and latest Quarterly Report. </div>
+                          </div>
+                        </div>
+                      </div>
+              <!-- end portlet -->
+                      <div class="form-actions none-bg"> <a href="#preview in browser/not yet published" class="btn btn-red">Save &amp; Preview &nbsp;<i class="fa fa-search"></i></a>&nbsp; <a href="#publish online" class="btn btn-blue">Save &amp; Publish &nbsp;<i class="fa fa-globe"></i></a>&nbsp; <a href="#" class="btn btn-green">Cancel &nbsp;<i class="glyphicon glyphicon-ban-circle"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <!-- TemplateEndEditable -->
+        <!--END CONTENT-->
+            
+            <!--BEGIN FOOTER-->
+            <div class="page-footer">
+                <div class="copyright"><span class="text-15px">2014 © <a href="http://www.webqom.com" target="_blank">Webqom Technologies Sdn Bhd.</a> Any queries, please contact <a href="mailto:support@webqom.com">Webqom Support</a>.</span>
+                	<div class="pull-right"><img src="../admin_html/images/logo_webqom.png" alt="Webqom Technologies"></div>
+                </div>
+            </div>
+    <!--END FOOTER--></div>
+  <!--END PAGE WRAPPER--></div>
+</div>
+<script src="../admin_html/js/jquery-1.9.1.js"></script>
+<script src="../admin_html/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../admin_html/js/jquery-ui.js"></script>
+<!--loading bootstrap js-->
+<script src="../admin_html/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="../admin_html/vendors/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js"></script>
+<script src="../admin_html/js/html5shiv.js"></script>
+<script src="../admin_html/js/respond.min.js"></script>
+<script src="../admin_html/vendors/metisMenu/jquery.metisMenu.js"></script>
+<script src="../admin_html/vendors/slimScroll/jquery.slimscroll.js"></script>
+<script src="../admin_html/vendors/jquery-cookie/jquery.cookie.js"></script>
+<script src="../admin_html/js/jquery.menu.js"></script>
+<script src="../admin_html/vendors/jquery-pace/pace.min.js"></script>
+
+<!--LOADING SCRIPTS FOR PAGE-->
+<script src="../admin_html/vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="../admin_html/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="../admin_html/vendors/moment/moment.js"></script>
+<script src="../admin_html/vendors/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<script src="../admin_html/vendors/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+<script src="../admin_html/vendors/bootstrap-clockface/js/clockface.js"></script>
+<script src="../admin_html/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script src="../admin_html/vendors/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<script src="../admin_html/vendors/jquery-maskedinput/jquery-maskedinput.js"></script>
+<script src="../admin_html/js/form-components.js"></script>
+<!--LOADING SCRIPTS FOR PAGE-->
+
+<!-- TemplateBeginEditable name="EditRegion4" -->
+<script src="../admin_html/vendors/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="../admin_html/vendors/ckeditor/ckeditor.js"></script>
+<script src="../admin_html/js/ui-tabs-accordions-navs.js"></script>
+
+<script src="../admin_html/vendors/jquery-highcharts/highcharts.js"></script>
+<script src="../admin_html/vendors/jquery-highcharts/exporting.js"></script>
+<script src="../admin_html/js/chart-line-charts.js"></script>
+<!-- TemplateEndEditable -->
+
+<!--CORE JAVASCRIPT-->
+<script src="../admin_html/js/main.js"></script>
+<script src="../admin_html/js/holder.js"></script>
+</body>
+</html>

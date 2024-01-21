@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/corporate_profile.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    @include('includes.head')
+</head>
+  <body> 
+    @include('includes.header') 
+    
+        <!-- crumbs-->
+        <div class="crumbs border_bottom">
+            <div class="container"><!-- InstanceBeginEditable name="EditRegion3" -->
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>/</li>
+                <li><a href="investor_relations_home.html">Investor Relations</a></li>
+                <li>/</li>
+                <li>News Centre</li>
+                <li>/</li>
+                <li>Latest Media News</li>
+              </ul>
+            <!-- InstanceEndEditable --></div>        
+        </div>
+        <!-- End crumbs-->
+
+        <!-- End content info -->
+        <section class="content_info"><!-- InstanceBeginEditable name="EditRegion4" -->
+            @yield('content')        
+            <!-- InstanceEndEditable -->
+            @include('includes.clients')
+        </section>
+        <!-- End content info-->
+
+        <!-- footer-->
+        <footer>
+            @include('includes.footer')
+        </footer>      
+        <!-- End footer-->
+
+
+   
+        <!-- ======================= JQuery libs =========================== -->
+        <!-- Always latest version of jQuery-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>   
+        <!-- jQuery local-->      
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <!-- jQuery ui-->    
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+        <!--Nav-->
+        {{HTML::script('js/nav/tinynav.js')}}
+        {{HTML::script('js/nav/superfish.js')}}                                         
+        <!--Totop-->
+        {{HTML::script('js/totop/jquery.ui.totop.js')}}
+        <!--Slide-->
+        {{HTML::script('js/slide/camera.js')}}
+        {{HTML::script('js/slide/jquery.easing.1.3.min.js')}}
+        <!--flexsilider-->
+        {{HTML::script('js/carousel/jquery.flexslider.js')}}
+        <!--Ligbox--> 
+        {{HTML::script('js/fancybox/jquery.fancybox-1.3.1.js')}}
+        <script type="text/javascript" src=""></script>  
+        <!--Scrollama--> 
+        {{HTML::script('js/scrollama/TweenMax.min.js')}}
+        {{HTML::script('js/scrollama/jquery.superscrollorama.js')}}
+        <!--Gallery Grid--> 
+        {{HTML::script('js/gallery/modernizr.custom.26633.js')}}
+        {{HTML::script('js/gallery/jquery.gridrotator.js')}}
+        <!--Minislider Team-->
+        {{HTML::script('js/team/modernizr.custom.63321.js')}}
+        {{HTML::script('js/team/jquery.catslider.js')}}
+        <!--Filters-->
+        {{HTML::script('js/filters/filters.js')}}                       
+        <!-- Bootstrap.js-->
+        {{HTML::script('js/bootstrap/bootstrap.js')}}
+        <!--fUNCTIONS-->
+        {{HTML::script('js/jquery-func.js')}}
+        <!-- ======================= End JQuery libs =========================== -->
+        <!-- CUSTOM OCK JS -->
+        {{HTML::script('js/custom_ock.js')}}
+
+  </body>
+<!-- InstanceEnd --></html>

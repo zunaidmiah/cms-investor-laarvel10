@@ -1,0 +1,17 @@
+.sf-menu > li{
+	position: relative;
+	float:left;	
+	list-style: none;	
+	line-height: 20px;
+	margin:0 25px 0 0;
+}
+.sf-menu > li:last-child {	
+	margin:0;
+}
+.sf-menu > li > a {
+	text-decoration:none;
+	display:block;
+	font-size:14px;	
+	font-weight: 600;
+	color:#fff;	
+}

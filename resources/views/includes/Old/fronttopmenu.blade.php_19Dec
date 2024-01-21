@@ -1,0 +1,155 @@
+ <!-- Nav-->
+                        <nav class="span9">
+                            <!-- Menu-->
+                            <ul id="menu" class="sf-menu">
+                                <!--<li><a href="{{ URL::to('/') }}">HOME</a>                                </li>-->
+                                <li><a href="http://cms.investor.com.my">HOME</a>                                </li>
+                                <li>
+                                	<a href="#">COMPANY</a>
+                                	<ul>                                  
+                                        <li><a href="http://cms.investor.com.my/profile">Corporate Profile</a></li>
+                                        <li><a href="http://cms.investor.com.my/structure">Corporate Structure</a></li>
+                                        <!--<li><a href="http://cms.investor.com.my/boardcharter">Board Charter</a></li>-->
+                                        <li><a href="http://cms.investor.com.my/create_vacancy">Careers</a></li>  
+                                        <li><a href="http://cms.investor.com.my/pages/news_events">CSR &amp; Company Bulletin</a></li>
+                                        <li><a href="#">Links</a>
+                                            <ul>
+                                               <li><a href="http://www.mpob.gov.my/" target="_blank">Related Palm Oil Agencies</a></li>
+                                               <li><a href="http://mpk.gov.my/" target="_blank">Pahang State Government Agencies</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">SUSTAINABILITY</a>
+                                        	<ul>
+                                            	<li><a href="{{url('/')}}/sustainability/palm-oil-policy">Sustainable Palm Oil Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/Environmental-protection-biological-diversity-policy">Environmental Protection &amp; Biological Diversity Policy</a></li>
+												<li><a href="{{url('/')}}/sustainability/equality-gender-policy">Policy of Equality &amp; Gender</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/food-safety-policy">Food Safety Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/quality-policy">Quality Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/safety-health-policy">Safety &amp; Health Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/safety-policy">Safety Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/slope-river-protection-policy">Slope &amp; River Protection Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/social-policy">Social Policy</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/certification-policy">Certification</a></li>
+
+                                                {{-- <li><a href="">Certification</a>
+                                                	<ul>
+                                                    	<li><a href="http://bursa.investor.com.my/frontend/img/certificates/SGS_Certificate.pdf">SGS Certificate</a></li>
+                                                        <li><a href="http://bursa.investor.com.my/frontend/img/certificates/Burueau_Veritas_Certification.pdf">Bureau Veritas Certification</a></li>
+                                                    </ul>
+                                                </li> --}}
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">GOVERNANCE</a>
+                                        	<ul>
+                                            	 <li><a href="http://bursa.investor.com.my/investorrelations/corporategovernance">Corporate Governance</a></li>
+                                                
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/managementanalysis/reviewoperations">Board Charter</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/managementanalysis/chairmanstatement">Whistle Blower Policy</a></li>
+
+                                               
+                                                <li><a href="{{url('/')}}/sustainability/board-nomination-committe">Terms of Reference - Board Nomination Committee</a></li>
+                                                <li><a href="{{url('/')}}/sustainability/audit-management-committee">Terms of Reference - Audit and Risk Management Committee</a></li>
+
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/managementanalysis/pastperformance">Past Performance Review</a></li>-->
+                                            </ul>
+                                        </li>
+                                <!--<li><a href="#">SERVICES</a>
+                                	<ul>
+                                        <li><a href="http://cms.investor.com.my/telecommunication">Telecommunications Network Services</a></li>
+
+                                        <li><a href="http://cms.investor.com.my/trading">Trading of Telecommunication &amp; IT Products</a></li>
+
+                                        <li><a href="http://cms.investor.com.my/greentech">Green Technology &amp; Solar</a></li>
+
+                                        <li><a href="http://cms.investor.com.my/engineeringworks">M&amp;E Engineering Works</a></li>
+
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="http://cms.investor.com.my/clients">CLIENTS</a></li>-->
+                                 <li>
+                                    <a href="http://bursa.investor.com.my/">INVESTOR RELATIONS</a>
+                                    <ul>                                  
+                                        <li><a href="#">Corporate Information</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/corporateinformation/general">Statutory Information</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/corporateinformation/directorprofile">Board of Directors</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/corporateinformation/keymanagemnet">Management Team</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/corporateinformation/ourproperties">Audit and Risk Management Committee</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/corporateinformation/oursubsidiaries">Our Subsidiaries</a></li>-->
+                                            </ul>
+                                        </li>
+                                        <!--<li><a href="http://bursa.investor.com.my/investorrelations/corporategovernance">Whistle Blower Policy</a></li>-->
+                                        <li><a href="#">Estate Information</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/ipocentre/ipostatistics">Estate Location</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/ipocentre/competitiveadvantages">Estate Profile</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/ipocentre/riskfactors">Risk Factors</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/ipocentre/utilizationproceeds">Utilisation of Proceeds</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/ipocentre/industryoverview">Industry Overview</a></li>-->
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Share Information</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/shareinformation/priceticker">Price Ticker</a></li>
+                                                <li><a href="http://charts.investor.com.my/">Stock Charts</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/shareinformation/pricevolume">Price &amp; Volume</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/shareinformation/shareholdingsanalysis">Analysis of Shareholdings</a></li>-->
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/shareinformation/topshareholders">Shareholders</a></li>
+                                            </ul>
+                                        </li>
+                                        <!--<li><a href="http://bursa.investor.com.my/investorrelations/frontentitlement">Entitlements</a></li>-->
+                                        <li><a href="#">Financial Information</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/financialhighlights">Financial Statistics</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/comprehensiveincome">Statements of Comprehensive Income</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/financialposition">Statements of Financial Position</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/cashflowstatement">Cash Flow Statement</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/equitychanges">Statement of Changes In Equity</a></li>-->                                              
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/segmentalanalysis">Highlights</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/ratioanalysis">Production Statistics</a></li>
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/financialinformation/latestreport">Key Audit Matters</a></li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li><a href="#">News Centre</a>
+                                        	<ul>
+                                            	<li><a href="{{url()}}/investorrelations/newscentre/bursaannouncements">Bursa Announcements</a></li>
+                                                <li><a href="http://medianews.investor.com.my/news_centre_latest_media_news">Corporate News</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Reports</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/reports/annualreports#all">Annual Reports</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/reports/annualauditedaccounts#all">Annual Audited Accounts</a></li>-->
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/reports/quarterlyreports">Quarterly Reports</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/reports/circulars">Circulars</a></li>-->
+                                                <li><a href="http://bursa.investor.com.my/investorrelations/reports/prospectus">AGM/EGM/MSWG</a></li>
+                                                <!--<li><a href="http://bursa.investor.com.my/investorrelations/reports/analystreports">Analyst Reports</a></li>-->
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Investor Tools</a>
+                                        	<ul>
+                                            	<li><a href="http://bursa.investor.com.my/investorrelations/investortools/newsalerts">News Alert</a></li>
+                                                <li><a href="http://cms.investor.com.my/calculator">Price Gain / Loss Calculator</a></li>
+                                            </ul>
+                                        </li>
+                                        <!--<li><a href="http://bursa.investor.com.my/investorrelations/eventcalendar">Events Listing</a></li>-->
+                                    </ul>
+                                </li> 
+                                               
+                          		<li><a href="#">CONTACT US</a>
+                                	<ul>
+                                       <li><a href="http://bursa.investor.com.my/contactus">Contact Us</a></li>
+                                       <li><a href="http://bursa.investor.com.my/contactus">Enquiry</a></li>
+                                       <!--<li><a href="http://bursa.investor.com.my/regionaloffices">Regional Offices</a></li>-->
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                            <!-- End Menu-->
+                        </nav>
+                        <!-- End Nav-->
